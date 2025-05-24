@@ -1,5 +1,5 @@
-import { connectToDatabase } from '../../lib/mongodb';
-import Entry from '../../models/Entry';
+import { connectToDatabase } from '../lib/mongodb';
+import Entry from '../models/Entry';
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
