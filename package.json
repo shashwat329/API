@@ -1,5 +1,9 @@
 {
   "name": "vercel-express-api",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0"
+  }
 }
